@@ -8,7 +8,7 @@ def test_home():
 
     assert response.status_code == 200
     assert response.json["message"] == (
-        "Welcome to the Deployment Demo API!"
+        "Hello! Welcome to the Deployment Demo API!"
     )
 
 
