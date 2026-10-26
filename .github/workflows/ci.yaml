@@ -49,7 +49,7 @@ jobs:
 
     env:
       REGISTRY: ghcr.io
-      IMAGE_NAME: ${{ github.repository }}
+      IMAGE_NAME: anjali-sinha/deployment-pipeline
 
     steps:
       - name: Check out repository
